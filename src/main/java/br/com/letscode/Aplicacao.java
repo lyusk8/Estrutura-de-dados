@@ -1,12 +1,10 @@
 package br.com.letscode;
 
-import java.lang.reflect.Array;
-
-public class Algoritimos {
+public class Aplicacao {
 
     public static void main(String[] args) {
 
-        Stack fila = new Stack();
+        Queue fila = new Queue();
 
         Pessoa p1 = new Pessoa("Marcão", "teuemail@site.com", "23/06/1982");
         Pessoa p2 = new Pessoa("Elias", "meuemail@site.com", "25/11/1972");
